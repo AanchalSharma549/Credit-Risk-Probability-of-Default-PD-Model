@@ -1,7 +1,9 @@
 # Credit Risk: Probability of Default (PD) Model
 
-## Purpose
+## Data
+This project uses the [Home Credit Default Risk dataset](https://www.kaggle.com/c/home-credit-default-risk) from Kaggle. Due to file size (~190MB), the raw CSV is not included in this repo — download `application_train.csv` from the link above and place it in a `data/` folder to reproduce.
 
+## Purpose
 Home Credit, a lending institution, needs to predict whether a loan applicant will default before approving a loan — approving a risky applicant loses money, rejecting a safe one loses business. This project builds a Probability of Default (PD) model using the real-world **Home Credit Default Risk** dataset (Kaggle, ~307,500 applicants, 122 raw features).
 
 The goal wasn't just to produce a number — it was to build something a risk analyst could actually explain and defend: why features were dropped, why a threshold was chosen, why one model beat another, and why the predictions look the way they do.
